@@ -15,3 +15,13 @@ To be able to run the models one must be able to perform the remoting applicatio
 
 After installing Anaconda, inside the Anaconda CMD run: ipython kernel install --name "Marc" --user
 and ipython kernel install --name "Apex" --user
+afterwards run the code in the cmd :jupyter kernelspec list which should give the directories for the kernels.
+
+The code part which says "C:\\Users\\user\\anaconda3\\python.exe"
+should be changed too where the MSC.Software file is example directories:
+
+Apex:-----
+"C:\\Users\\SBCgl\\AppData\\Roaming\\MSC.Software\\MSC Apex\\2022-004456\\python3\\python3.9.exe"
+
+Marc:-----
+"C:\\Users\\SBCgl\\AppData\\Roaming\\MSC.Software\\Marc\\2022.4.0\\mentat2022.4\\bin\\run_python.bat"
