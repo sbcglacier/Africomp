@@ -1,0 +1,39 @@
+SERVER license.sun.ac.za ANY 62025 
+USE_SERVER
+#SERVER head002.sun.ac.za 00259018decc 27001
+#VENDOR VRAND port=62025
+#USE_SERVER
+#
+# VR&D Authorization file
+# NOTE: Most changes to this file will invalidate all licenses.
+#       However, you can safely change the following:
+#       - The hostname on the SERVER line (1st arg).
+#       - The (optional) port number on the SERVER line (3rd arg).
+#       - The (optional) daemon-path on the VENDOR line (2nd arg).
+#
+# Create Code  : gcq
+# End User     : Professor Gerhard Venter
+#
+FEATURE GENESIS VRAND 2014.0820 permanent 200 VENDOR_STRING=edu,0 \
+	asset_info=head001.sun.ac.za NOTICE="University of \
+	Stellenbosch" START=17-Sep-2013 SIGN=4406697A5A0A
+FEATURE DesignStudio VRAND 2014.0820 permanent 200 \
+	VENDOR_STRING=edu,0 asset_info=head001.sun.ac.za \
+	NOTICE="University of Stellenbosch" START=17-Sep-2013 \
+	SIGN=7DF2862ED388
+FEATURE VDOC_MASTER VRAND 2014.0820 permanent 200 \
+	VENDOR_STRING="TYPE=EDU, NDVAR=ANY, NRESP=ANY" \
+	asset_info=head001.sun.ac.za NOTICE="University of \
+	Stellenbosch" START=17-Sep-2013 SIGN=677F530E8F0A
+FEATURE VDOC_PARALLEL VRAND 2014.0820 permanent 200 \
+	VENDOR_STRING="TYPE=EDU, NDVAR=ANY, NRESP=ANY" \
+	asset_info=head001.sun.ac.za NOTICE="University of \
+	Stellenbosch" START=17-Sep-2013 SIGN=0FBA4B4ACDF8
+FEATURE DOT VRAND 2014.0820 permanent 200 VENDOR_STRING="TYPE=EDU, \
+	NDVAR=ANY, NRESP=ANY" asset_info=head001.sun.ac.za \
+	NOTICE="University of Stellenbosch" START=17-Sep-2013 \
+	SIGN=F5315820A456
+FEATURE BIGDOT VRAND 2014.0820 permanent 200 VENDOR_STRING="TYPE=EDU, \
+	NDVAR=ANY, NRESP=ANY" asset_info=head001.sun.ac.za \
+	NOTICE="University of Stellenbosch" START=17-Sep-2013 \
+	SIGN=4436EF062B42
