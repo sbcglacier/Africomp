@@ -25,3 +25,7 @@ Apex:-----
 
 Marc:-----
 "C:\\Users\\SBCgl\\AppData\\Roaming\\MSC.Software\\Marc\\2022.4.0\\mentat2022.4\\bin\\run_python.bat"
+
+Go to environmental Variables and add the following variables under user variables:
+LD_LIBRARY_PATH -> C:\Program Files (x86)\vrand\dot6.0
+VRAND_AUT -> C:\Program Files (x86)\vrand\licenses\vrand.lic
