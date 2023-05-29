@@ -12,3 +12,6 @@ The dot2.py is the code used to perform DOT optimization. The code originally cr
 The OpenSimOperate27_10 was used to create code fed into OpenSim to create the motion as well as scale the model accordingly. 
 
 To be able to run the models one must be able to perform the remoting application as instructed by MSC Apex found in: https://help.hexagonmi.com/en-US/bundle/msc_apex_help/page/node/2178.html
+
+After installing Anaconda, inside the Anaconda CMD run: ipython kernel install --name "Marc" --user
+and ipython kernel install --name "Apex" --user
