@@ -30,4 +30,4 @@ Go to environmental Variables and add the following variables under user variabl
 LD_LIBRARY_PATH -> C:\Program Files (x86)\vrand\dot6.0
 VRAND_AUT -> C:\Program Files (x86)\vrand\licenses\vrand.lic
 
-Copy to: C:\\Users\\SBCgl\\AppData\\Roaming\\MSC.Software\\MSC Apex\\2022-004456\\python3\\DLLs the py_post and py_mentat .dlls
+Copy to: C:\\Users\\SBCgl\\AppData\\Roaming\\MSC.Software\\MSC Apex\\2022-004456\\python3\\DLLs the py_post and py_mentat .pyd files
