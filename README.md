@@ -1,7 +1,7 @@
-# Africomp
-Code for "Patient specific automated generative methods for a single finger, coupling non-linear soft actuator structural behavior to a kinematic finger model"
-This section details the code used to automate mesh creation in MSC Apex and FEA analysis in MSC Marc/Mentat thereafter performing DOT optimization. 
-The jupyter notebook python files are used to automate this proceedure where:
+# Analysis and Design for a Wearable Single-Finger-Assistive Soft Robotic Device Allowing Flexion and Extension for Different Finger Sizes
+This repository contains the files used to perform 2D and 3D FEA analysis in Marc/Mentat for the proposed framework detailed in my published paper, which focuses on creating a hand assistive rehabilitation device for TGE. It includes the response surface models for generating active and passive moments for joints based on a patient's middle finger dimensions. Additionally, Python code for automatically setting up the 2D FEA simulation in Marc/Mentat is provided. Files for automating the creation of the 3D model used in the reduced-order FEA for three cascaded units are also included. The repository contains an Excel file with data used to create the response surface models from OpenSim, as well as R code for conducting ANOVA analysis, calculating p-values, and determining R-squared and adjusted R-squared values. Dot was used as the selected optimization tool.
+
+
 
 File "Apex_Final_18507522_04_11_OJoint_Cor.ipynb" is used to automate mesh creation
 File "Marc_Final_InProgress_04_11_OJoint.ipynb" is used to setup the cascaded PNA actuators interacting with a finger model, thereafter performing FEM analysis
