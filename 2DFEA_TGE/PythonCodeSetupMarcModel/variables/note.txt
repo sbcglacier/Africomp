@@ -1,0 +1,1 @@
+This folder contains the variables to run the code 2DFEA_model_setup_Marc.ipynb
