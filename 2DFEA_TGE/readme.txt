@@ -1,1 +1,1 @@
-
+The .dat files used to run 2D FEA simulations for each TGE is given. The default 2D plane-strain formulation in marc if not otherwise specified uses a thickness of 1 unit. I am using SI units as such this 1 unit is 1 meter of actuator. The strain the Z-direction does not change. As an actuator is actual 20 mm thick the joint moment values were scaled accordingly to consider for the 1 unit thick actuator. TGE1 to TGE5 are presented.
