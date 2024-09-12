@@ -1,5 +1,5 @@
-MyData<- read.csv(file="C:/Users/18507522/Downloads/R/AllFingers_P_A_Values_EDIT.csv", header=TRUE, sep=",")
-header <-read.table("C:/Users/18507522/Downloads/R/AllFingers_P_A_Values_EDIT.csv",nrows=1,header = FALSE,sep=',',stringsAsFactors=FALSE)
+MyData<- read.csv(file="C:/Users/18507522/Downloads/R/AllFingers_Passive_Active.csv", header=TRUE, sep=",")
+header <-read.table("C:/Users/18507522/Downloads/R/AllFingers_Passive_Active.csv",nrows=1,header = FALSE,sep=',',stringsAsFactors=FALSE)
 
 polyord = 1
 
