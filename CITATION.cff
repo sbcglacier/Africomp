@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Chung"
+  given-names: "Sung bok"
+  orcid: "https://orcid.org/0000-0001-9708-3516"
+title: "Dissertation"
+version: 1.0.0
+doi: 10.5281/zenodo.1234
+date-released: 2024-10-20
+url: "https://github.com/sbcglacier/Africomp"
